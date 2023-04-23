@@ -24,8 +24,8 @@ We are using `Dialogflow` which is a chatbot building framework
 ### Dialogflow
 - Dialogflow provides NLU (Natural Language Understanding) platform, using which we can create chatbots. We donot have to train the model from scratch
 - Service like dialogflow are : 
-        - `AWS lex` make chatbots using AWS
-        - `wit.ai` make chatbots with facebook 
-        - `watson` IBM
-        - `AL chatbot` Microsoft Azure
+     - `AWS lex` make chatbots using AWS
+     - `wit.ai` make chatbots with facebook 
+     - `watson` IBM
+     - `AL chatbot` Microsoft Azure
 - 
