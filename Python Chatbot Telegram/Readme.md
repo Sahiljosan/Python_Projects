@@ -1,5 +1,6 @@
 ## Table of Content
-- [Architecture](#rchitecture)
+- [Architecture](#architecture)
+- [Dialogflow](#dialogflow)
 
 ### Architecture
 ![](https://i.imgur.com/vWbMl5j.png) <br>
@@ -17,3 +18,14 @@ We are using `Dialogflow` which is a chatbot building framework
 9. That Flask API will do the conversion (currency conversion)
 10. This flast api will give the conversion to chatbot 
 11. The chatbot can be anywhere whats app, telegram, fb messenger
+12. `Integration` means on which platform you want to publish your chatbot
+
+
+### Dialogflow
+- Dialogflow provides NLU (Natural Language Understanding) platform, using which we can create chatbots. We donot have to train the model from scratch
+- Service like dialogflow are : 
+        - `AWS lex` make chatbots using AWS
+        - `wit.ai` make chatbots with facebook 
+        - `watson` IBM
+        - `AL chatbot` Microsoft Azure
+- 
