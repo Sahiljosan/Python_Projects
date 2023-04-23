@@ -3,7 +3,7 @@
 
 ### Architecture
 ![](https://i.imgur.com/vWbMl5j.png) <br>
-We are using Dialogflow which is a chatbot building framework
+We are using `Dialogflow` which is a chatbot building framework
 1. In Architecture we make a chatbot using Dialogflow
 2. Our user will talk to this chatbot
 3. What ever the user will give command, it will be called `intent`
