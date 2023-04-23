@@ -2,7 +2,7 @@
 - [Architecture](#rchitecture)
 
 ### Architecture
-![](https://i.imgur.com/qOJPAQP.jpg)
+![](https://i.imgur.com/vWbMl5j.png)
 We are using Dialogflow which is a chatbot building framework
 1. In Architecture we make a chatbot using Dialogflow
 2. Our user will talk to this chatbot
