@@ -68,6 +68,14 @@ Now we have to copy forwarding URL and copy in our browser
 
 ![](https://i.imgur.com/YB2ObTh.png)
 
+If Flask API doesnot run throught agrok the we have authenticate our ngrok agent <br>
+For that write below text in command promt
+```
+ngrok config add-authtoken 2P6JvrndnRTt4m4m12hBnOE9tUQ_5pyeNhbY8uoaEwErcC47q
+```
+
+
+
 
 
 
