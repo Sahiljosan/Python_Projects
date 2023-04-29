@@ -3,6 +3,7 @@
 - [Dialogflow](#dialogflow)
 - [Flask Syntax](#flasksyntax)
 - [ngrok](#ngrok)
+- [Fulfillment](#fulfillment)
 
 Start from here - https://youtu.be/Nb21OhaW8GY?t=1349
 
@@ -38,6 +39,8 @@ We are using `Dialogflow` which is a chatbot building framework
 - Go to `responses` and write default response
 - Now we wil send `Diagnostic Info` to flask API 
 
+[Back To Top](#table-of-content)
+
 ### Flask Syntax
 ```
 from flask import Flask
@@ -66,6 +69,9 @@ So download and open ngrok and write ngrok http "Port name that u want to make o
 Now we have to copy forwarding URL and copy in our browser
 
 
+
+[Back To Top](#table-of-content)
+
 ![](https://i.imgur.com/YB2ObTh.png)
 
 If Flask API doesn't run throught agrok the we have authenticate our ngrok agent <br>
@@ -74,7 +80,16 @@ For that write below text in command promt
 ngrok config add-authtoken 2P6JvrndnRTt4m4m12hBnOE9tUQ_5pyeNhbY8uoaEwErcC47q
 ```
 
+Now our flask code is working in web 
+![](https://i.imgur.com/DOaK5es.png)
 
+### Fulfillment
+Next Step is go to fulfillment
+
+
+
+
+[Back To Top](#table-of-content)
 
 
 
