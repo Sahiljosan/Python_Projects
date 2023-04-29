@@ -133,6 +133,11 @@ Free Api key
 9aa0c54f5ad4c460c36d
 ```
 
+Full Link
+```
+https://free.currconv.com/api/v7/convert?q=USD_PHP&compact=ultra&apiKey=9aa0c54f5ad4c460c36d
+```
+
 
 
 
