@@ -84,9 +84,13 @@ Now our flask code is working in web
 ![](https://i.imgur.com/DOaK5es.png)
 
 ### Fulfillment
-Next Step is go to fulfillment
+Enter the URL generated from agrok and click save
 
 
+![](https://i.imgur.com/JxkBIH3.png)
+
+Now go to intents and enable webhook call for this intent <br>
+![](https://i.imgur.com/N2yffm4.png)
 
 
 [Back To Top](#table-of-content)
