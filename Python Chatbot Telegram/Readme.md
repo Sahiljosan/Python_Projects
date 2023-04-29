@@ -1,7 +1,7 @@
 ## Table of Content
 - [Architecture](#architecture)
 - [Dialogflow](#dialogflow)
-- [Flask Syntax](#flasksyntax)
+- [Flask Syntax](#flask-syntax)
 - [ngrok](#ngrok)
 - [Fulfillment](#fulfillment)
 
