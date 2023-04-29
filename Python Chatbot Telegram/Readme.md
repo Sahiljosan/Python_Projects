@@ -31,3 +31,5 @@ We are using `Dialogflow` which is a chatbot building framework
      - `watson` IBM
      - `AL chatbot` Microsoft Azure
 - Give personality to chatbot using `small talk`
+- Now we send these parameters to python flask API
+- 
