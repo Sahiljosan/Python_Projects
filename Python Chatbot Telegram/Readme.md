@@ -89,7 +89,9 @@ Enter the URL generated from agrok and click save
 
 ![](https://i.imgur.com/JxkBIH3.png)
 
-Now go to intents and enable webhook call for this intent <br>
+Now go to intents and enable webhook call for this intent 
+
+
 ![](https://i.imgur.com/N2yffm4.png)
 
 
