@@ -55,13 +55,16 @@ if __name__ == "__main__":
 Now the problem is dialogflow is running on google cloud and flask app is running on our machine so how can we establish communication between both, for that we will use ngrok
 
 ### ngrok
-`ngrok` is the fastest way to put your app on the internet. Test mobile apps against your development backend. in simple word ngrok makes one port of our machine online for 8 hours.
+`ngrok` is the fastest way to put your app on the internet. Test mobile apps against your development backend. in simple word ngrok makes one port of our machine online for 2 hours.
 - at development time we will use `ngrok`
 - at production time we can use heroku or AWS
 -----------------------------------------------------------
 So download and open ngrok and write ngrok http "Port name that u want to make online"
 
 ![](https://i.imgur.com/f5oXoXv.png)
+
+Now we have to copy forwarding URL and copy in our browser
+![](https://i.imgur.com/YB2ObTh.png)
 
 
 
