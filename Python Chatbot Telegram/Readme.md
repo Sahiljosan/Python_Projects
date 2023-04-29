@@ -7,7 +7,7 @@
 - [Updated Flask app code](#updated-flask-app-code)
 - [API For Conversion Factor](#api-for-conversion-factor)
 
-Start from here - https://youtu.be/Nb21OhaW8GY?t=1349
+Start from here after receiving API - https://youtu.be/Nb21OhaW8GY?t=3586
 
 ### Architecture
 ![](https://i.imgur.com/vWbMl5j.png) <br>
