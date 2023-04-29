@@ -94,6 +94,8 @@ Now go to intents and enable webhook call for this intent
 
 ![](https://i.imgur.com/N2yffm4.png)
 
+Now whatever response we get, we can receive it in flask app 
+
 
 [Back To Top](#table-of-content)
 
