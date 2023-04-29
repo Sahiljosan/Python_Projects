@@ -4,6 +4,8 @@
 - [Flask Syntax](#flask-syntax)
 - [ngrok](#ngrok)
 - [Fulfillment](#fulfillment)
+- [Updated Flask app code](#updated-flask-app-code)
+- [API For Conversion Factor](#api-for-conversion-factor)
 
 Start from here - https://youtu.be/Nb21OhaW8GY?t=1349
 
@@ -98,6 +100,38 @@ Now whatever response we get, we can receive it in flask app
 
 
 [Back To Top](#table-of-content)
+
+### Updated Flask app code
+```
+from flask import Flask, request
+
+app = Flask(__name__)  # app : object Flask : Class
+
+@app.route('/', methods = ['POST'])  # decorator to create a route
+
+def index():
+    data = request.get_json()
+    source_currency = data['queryResult']['parameters']['unit-currency']['currency']
+    amount = data['queryResult']['parameters']['unit-currency']['amount']
+    target_currency = data['queryResult']['parameters']['currency-name']
+    print(source_currency)
+    print(amount)
+    print(target_currency)
+    return "<h1> Hello </h1>"
+
+if __name__ == "__main__":
+    app.run(debug = True)
+```
+
+### API For Conversion Factor
+
+
+![](https://i.imgur.com/Apr6A8O.png)
+
+Free Api key
+```
+9aa0c54f5ad4c460c36d
+```
 
 
 
