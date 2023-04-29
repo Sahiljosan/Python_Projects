@@ -1,6 +1,8 @@
 ## Table of Content
 - [Architecture](#architecture)
 - [Dialogflow](#dialogflow)
+- [Flask Syntax](#flasksyntax)
+- [ngrok](#ngrok)
 
 Start from here - https://youtu.be/Nb21OhaW8GY?t=1349
 
@@ -35,3 +37,33 @@ We are using `Dialogflow` which is a chatbot building framework
 - if Flask API doesnot work, then we have to assign default response 
 - Go to `responses` and write default response
 - Now we wil send `Diagnostic Info` to flask API 
+
+### Flask Syntax
+```
+from flask import Flask
+
+app = Flask(__name__)  # app : object Flask : Class
+
+@app.route('/')  # decorator to create a route
+
+def index():
+    return "Hello"
+
+if __name__ == "__main__":
+    app.run(debug = True)
+```
+Now the problem is dialogflow is running on google cloud and flask app is running on our machine so how can we establish communication between both, for that we will use ngrok
+
+### ngrok
+`ngrok` is the fastest way to put your app on the internet. Test mobile apps against your development backend. in simple word ngrok makes one port of our machine online for 8 hours.
+- at development time we will use `ngrok`
+- at production time we can use heroku or AWS
+-----------------------------------------------------------
+So download and open ngrok and write ngrok http "Port name that u want to make online"
+![](https://https://i.imgur.com/f5oXoXv.png)
+
+
+
+
+
+
