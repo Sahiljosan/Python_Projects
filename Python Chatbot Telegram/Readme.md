@@ -30,4 +30,4 @@ We are using `Dialogflow` which is a chatbot building framework
      - `wit.ai` make chatbots with facebook 
      - `watson` IBM
      - `AL chatbot` Microsoft Azure
-- Give personality to chatbot using small talk
+- Give personality to chatbot using `small talk`
