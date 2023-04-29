@@ -32,4 +32,6 @@ We are using `Dialogflow` which is a chatbot building framework
      - `AL chatbot` Microsoft Azure
 - Give personality to chatbot using `small talk`
 - Now we send these parameters to python flask API
-- 
+- if Flask API doesnot work, then we have to assign default response 
+- Go to `responses` and write default response
+- Now we wil send `Diagnostic Info` to flask API 
